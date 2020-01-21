@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+You will need an installation of node.js as well as to install npm in order to see your project. Navigate to localhost:4200 to see the prject. 
+I recommend using Github Desktop as well as visual studio code for the most seemless github integration
