@@ -12,25 +12,25 @@ Create longboard/electric motor calculator as a means to calculate a more approp
 Austin makes electric longboards and had issues always having to do the calculations by hand or showing potential customers how a different battery or motor combination could change the way that they utilize their boards.
 
 ## Risks to Completion:
-Markup: * Unknown language for project
+        * Unknown language for project
         * Unfamiliar Teamates
         * Agile is an unfamiliar developing method to the group
         * Scrum is an unfamiliar work practice to the group
 
 ## Mitigation Strategy for the above Risks
-Markup: * Learn the language through practice and research
+        * Learn the language through practice and research
         * Learn more about teamates strengths and weaknesses through weekly interaction like scrum and slack/email communication
         * Learn and research more about the Agile process as we progress through the course and assignments
         * Learn more about the importance of scrum meetings as we progress through the course through practice and assignments
         
  ## Development Method:
- Markup * Scrum
+        * Scrum
         * Rather than have a daily scrum meeting we plan to use a weekly approach with a meeting once a week or more if an emergency arises.
         * Have the three major groups for ToDo, In Progress and done to denote the stage each story is in
         * Each story will be decided upon/sized and allocated to the individual responsible for it after the weekly scrum meeting.
         
  ## Project tracking Software:
- Markup: * Use Gitthubs built in tracking software for projects.
+        * Use Gitthubs built in tracking software for projects.
  
   
  
