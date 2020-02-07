@@ -1,0 +1,24 @@
+.head-con{
+    color:#648C81;
+    padding-bottom: auto;
+    padding-top: 30px;
+    width: 100%;
+    padding-left: 30px;
+    background-color: #EFF2D8;
+   height: 100px;
+   margin: 0px;
+   
+}
+.head-sec{
+    display: inline-flex;
+}
+.head-con i{
+    /*line-height: 1.2;*/
+    font-size: 40px;
+    margin-right: 20px;
+    color: #648C81;
+}
+.login-sec{
+    font-style: italic;
+    padding-top: 15px;
+}

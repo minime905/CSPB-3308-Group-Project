@@ -1,1 +1,76 @@
-<h1>By the Gods you've made it to the home page!!!!</h1>
+<div class="main-content">
+    <div class="words">
+    HI,
+    <br><br>
+    Welcome to the Electric Longboard Calculator!
+    <br><br>
+    Return here to the Home screen should you have 
+    any quewstions about the calculations this app provides.
+    <br><br>
+    <p>
+    Use this app to quickly determine the max speed, max voltage,
+     motor rpm and range of your electric longboard based on the required 
+     inputs. The inputs can be acquired through different product specs and 
+     manufacturers. Providing these inputs will yield immediate calculations. 
+     you can adjust these inputs until you are satisfied and if you have signed
+      in you may save your results.
+      </p>
+      <br><br>
+      You may compare the different results you have saved on the 
+      compare page.
+      <br><br>
+      We hope this speeds up your ability to quickly build and optimize the best
+       electric longboard for you.
+       <br><br>
+       Details for each input, output and how they are calculated can be found here:
+
+       <table class="calculations">
+           <tr>
+               <th>Value</th>
+               <th>Calculation</th>
+           </tr>
+           <tr>
+               <td>Max Voltage</td>
+               <td>(Batt. in series * 4.2v)</td>
+           </tr>
+           <tr>
+               <td>
+                   Max Amp Hrs
+               </td>
+               <td>((mAh per Batt.)* (num Packs in Parrallel) )/1000</td>
+           </tr>
+           <tr>
+               <td>
+                   Motor RPM
+               </td>
+               <td>
+                (Motor KV Rating)*(Motor Efficiency Rating .8)*(Max Voltage) 
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   Gear Ratio
+               </td>
+               <td>
+                (Pulley teeth)/ (Wheel Gear Teeth)
+               </td>
+           </tr>
+           <tr>
+               <td>
+                Max Speed (MPH)  
+               </td>
+               <td>
+                ((2(π)*((Wheel Diameter)/2.0)*((Motor RPM)/Gear Ratio))*60)/1.609e6 
+               </td>
+           </tr>
+           <tr>
+               <td>
+                   Range (miles)
+               </td>
+               <td>
+                ((Max Volt)*(Batt. AMP hours))/(18Watt hours permile avg.)
+               </td>
+           </tr>
+       </table>
+      </div>
+</div>
