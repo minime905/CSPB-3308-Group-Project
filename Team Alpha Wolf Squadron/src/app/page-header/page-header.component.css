@@ -18,7 +18,11 @@
     margin-right: 20px;
     color: #648C81;
 }
-.login-sec{
+.login-sec button{
     font-style: italic;
-    padding-top: 15px;
+    margin-top: 15px;
+    background-color: #EFF2D8;
+    border:none;
+    color: #648c81;
+    font-size: 20px;
 }
