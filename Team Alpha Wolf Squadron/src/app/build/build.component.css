@@ -1,0 +1,15 @@
+#inputs{
+  border: 5px solid black;
+  width: 50%;
+  float: left;
+  align-content: center;
+  padding: 20px;
+}
+
+#results{
+  border: 5px solid black;
+  width: 50%;
+  float: right;
+  align-content: center;
+  padding: 20px;
+}
