@@ -1,15 +1,49 @@
 #inputs{
-  border: 5px solid black;
   width: 50%;
+  height: 500px;
+  overflow: hidden;
   float: left;
   align-content: center;
   padding: 20px;
 }
 
 #results{
-  border: 5px solid black;
   width: 50%;
+  height: 500px;
+  overflow: hidden;
   float: right;
   align-content: center;
-  padding: 20px;
+}
+
+#display-results{
+  
+  padding-top: 80px;
+  padding-left: 30px;
+  width: 60%;
+
+  /* put form in grid */
+  display  : grid;
+  grid-gap : 10px;
+  grid-template-columns : repeat(2, 1fr);
+  grid-template-rows    : 2em 2em 2em 2em 2em 2em 2em 2em 2em;
+}
+
+form {
+  width  : 80%;
+  height : 498px;
+  margin : 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+
+  /* put form in grid */
+  display  : grid;
+  grid-gap : 10px;
+  grid-template-columns : repeat(2, 1fr);
+  grid-template-rows    : 2em 2em 2em 2em 2em 2em 2em 2em 2em;
+}
+
+input[type=submit] {
+  width: 200px;
+  cursor:pointer;
+
 }

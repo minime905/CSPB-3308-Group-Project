@@ -1,55 +1,32 @@
-<h1>By the Gods you've made it to the build page!!!!</h1>
-
 <div id="inputs">
   <form (submit)= "calculate($event)">
       Batteries in Series:
       <input type="batteriesInSeries" placeholder="" id="batteriesInSeries">
-      <br>
-      <br>
       Parallel Iterations:
       <input type="parallelIterations" placeholder="" id="parallelIterations">
-      <br>
-      <br>
       Motor KV:
       <input type="motorKV" placeholder="" id="motorKV">
-      <br>
-      <br>
       Pulley Gear Teeth:
       <input type="pulleyGearTeeth" placeholder="" id="pulleyGearTeeth">
-      <br>
-      <br>
       Wheel Gear Teeth:
       <input type="wheelGearTeeth" placeholder="" id="wheelGearTeeth">
-      <br>
-      <br>
       Milli-Amp Hours (mAH):
       <input type="milliAmpHours" placeholder="" id="milliAmpHours">
-      <br>
-      <br>
       Motor Efficiency (%):
       <input type="motorEfficiency" placeholder="" id="motorEfficiency">
-      <br>
-      <br>
       Wheel Size (mm):
       <input type="wheelSize" placeholder="" id="wheelSize">
-      <br>
-      <br>
       <input type="submit" value="Submit">
   </form>
 </div>
 
 <div id="results">
-  <h6>Max Voltage: (V) </h6><h6 id="maxVoltage"> 0 </h6>
-  <br>
-  <h6>Motor RPM: (RPM)</h6><h6 id="motorRPM"> 0 </h6>
-  <br>
-  <h6>Max Speed: (MPH)</h6><h6 id="maxSpeed"> 0 </h6>
-  <br>
-  <h6>Max Range: (Mi) </h6> <h6 id="maxRange"> 0 </h6>
-  <br>
-  <h6>Gear Ratio: (-)</h6><h6 id="gearRatio"> 0 </h6>
-  <br>
-  <h6>Amp Hours: (Ah)</h6><h6 id="ampHours"> 0 </h6>
-  <br>
-
+  <div id="display-results">
+    <h6>Max Voltage: (V) </h6><h6 id="maxVoltage"> 0 </h6>
+    <h6>Motor RPM: (RPM)</h6><h6 id="motorRPM"> 0 </h6>
+    <h6>Max Speed: (MPH)</h6><h6 id="maxSpeed"> 0 </h6>
+    <h6>Max Range: (Mi) </h6> <h6 id="maxRange"> 0 </h6>
+    <h6>Gear Ratio: (-)</h6><h6 id="gearRatio"> 0 </h6>
+    <h6>Amp Hours: (Ah)</h6><h6 id="ampHours"> 0 </h6>
+  </div>
 </div>
