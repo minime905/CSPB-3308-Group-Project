@@ -30,10 +30,6 @@ npm install
 
 ng serve
 
-CODE=$( curl -s --head http://myurl/ | head -n 1 )
-
-echo $CODE
-
-exit 0
+exit 1
 
 
