@@ -7,8 +7,20 @@ Max Smith
 # AUTOMATED TEST CASE INSTRUCTIONS
 
 ## Testing successful project build
-TODO
-- provide short bash and/or powershell script the clone and install and test environment? 
+Any time changes to the framework are made, in particular changes to the dependencies or file structure, the project should be tested to ensure it still builds when freshly cloned into an empty directory. This ensures a new development environment can be setup in minutes without any headaches. 
+
+To test that the project builds on linux or Mac:
+ - clone the project into an empty directory
+ - run the shell script in the Setup folder in the top-level of project directory
+ - verify that the app is running at http://localhost:4200/
+ - use CTRL-C to stop serving app and exit script. 
+
+
+## Testing that all Angular objects are working
+Any time an Angular Component or Module or Service or otherwise is added, removed, or changed within the context of how it interacts with the rest of the app, the native Angular test suite should be ran to ensure that all components and routing is still viable. 
+ - navigate to the project directory on command line
+ - run ```ng test``` in order to run all unittests with Karma. 
+ - review output in command line or in the automatically opened Chrome browser window to verify that tests all pass or to debug issues
 
 ## Testing calculations
 ### Test Max Voltage Calculations
