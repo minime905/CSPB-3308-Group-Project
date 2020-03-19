@@ -59,5 +59,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 -You will need an installation of node.js as well as to install npm in order to see your project. Navigate to localhost:4200 to see the project.
--
+
+Run following installation commands to install packages custom to your system:
+- npm install angular2-jwt --save
+- npm install auth0-lock --save
+
 I recommend using Github Desktop as well as visual studio code for the most seemless Github integration
