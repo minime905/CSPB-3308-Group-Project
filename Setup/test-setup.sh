@@ -28,6 +28,8 @@ cd "$PDIR"
 
 npm install
 
+npm install auth0-lock --save
+
 ng serve
 
 exit 1
