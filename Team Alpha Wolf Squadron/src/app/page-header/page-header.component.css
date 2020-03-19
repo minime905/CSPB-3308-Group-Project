@@ -7,6 +7,7 @@
     background-color: #EFF2D8;
    height: 100px;
    margin: 0px;
+  
    
 }
 .head-sec{
@@ -25,4 +26,13 @@
     border:none;
     color: #648c81;
     font-size: 20px;
+}
+
+.login-sec a{
+    text-decoration: none;
+    color: #648C81;
+}
+
+.login-sec a:hover{
+    color: #648c81;
 }
