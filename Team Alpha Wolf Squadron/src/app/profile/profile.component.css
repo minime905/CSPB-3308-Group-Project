@@ -1,0 +1,14 @@
+.profile-main{
+    background-color: #EFF2D8;
+    margin-top: 40px;
+}
+img{
+    width:200px;
+   border-radius: 50%;
+}
+li{
+    list-style: none;
+}
+li span{
+    font-weight: bold;
+}

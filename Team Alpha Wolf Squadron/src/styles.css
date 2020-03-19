@@ -8,9 +8,11 @@ html{
     height:100%;
     padding: 0px;
     margin: 0px;
+    min-width:723px;
 }
 body{
     width:100%;
     margin: 0px;
     padding: 0px;
+    background-color: #EFF2D8;
 }

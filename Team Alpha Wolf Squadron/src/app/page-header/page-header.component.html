@@ -1,5 +1,20 @@
-<div class="head-con row"><div class="head-sec col-md-11"><i class="fas fa-calculator"></i><h1>Electric Longboard Calculator</h1></div>
- <div class="login-sec col-md-1"><header>
-    <button (click)="auth.login()" *ngIf="!auth.loggedIn">Log In</button>
-    <button (click)="auth.logout()" *ngIf="auth.loggedIn">Log Out</button>
-  </header></div></div>
+<!-- src/app/header/header.component.html -->
+<header class="head-con login-sec">
+  <div>
+    <div style="display: flex;">
+      <i class="fas fa-calculator"></i>
+      <h2 style = "margin-left: 20px;margin-right: auto;"> Electric Longboard Calculator</h2>
+      <span *ngIf="auth.loggingIn">Logging in...</span>
+      <div style="margin-right: 10px; line-height: .4;">
+      <ng-template [ngIf]="!auth.loggingIn">
+        <button *ngIf="!auth.loggedIn" (click)="auth.login()">Log In</button>
+        <span *ngIf="auth.loggedIn && auth.userProfile">
+          <button><a routerLink = "profile">{{ auth.userProfile.name }}</a></button>
+          <span>|</span>
+          <button (click)="auth.logout()">Log Out</button>
+        </span>
+      </ng-template>
+      </div>
+    </div>
+    </div>
+    </header>

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Austin-Web"
+    }
+  },
+  "defaultProject": "Austin-Web",
+  "cli": {
+    "analytics": false
+  }
 }
