@@ -15,16 +15,17 @@
 #
 ##
 
-PDIR='../Team Alpha Wolf Squadron/'
+#PDIR='../Team Alpha Wolf Squadron/'
 
 # verify script is being run from correct location relevant to project directory
-if [ ! -d "$PDIR" ]; then
-	echo "The project directory does not exist."
-	echo "Clone the project repo and run this script from there."
-	exit 1
-fi
+#if [ ! -d "$PDIR" ]; then
+#	echo "The project directory does not exist."
+#	echo "Clone the project repo and run this script from there."
+#	exit 1
+#fi
 
-cd "$PDIR"
+# cd "$PDIR"
+cd ..
 
 npm install
 
@@ -33,5 +34,3 @@ npm install auth0-lock --save
 ng serve
 
 exit 1
-
-
