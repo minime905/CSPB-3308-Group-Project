@@ -9,7 +9,6 @@ import { HomeComponent } from './home/home.component';
 import { PageHeaderComponent } from './page-header/page-header.component';
 //import { AdminComponent } from './admin/admin.component';
 import { BuildComponent } from './build/build.component';
-import { CompareComponent } from './compare/compare.component';
 import { CallbackComponent } from './pages/callback/callback.component';
 import { ProfileComponent } from './profile/profile.component';
 
@@ -21,7 +20,6 @@ import { ProfileComponent } from './profile/profile.component';
     PageHeaderComponent,
     //AdminComponent,
     BuildComponent,
-    CompareComponent,
     CallbackComponent,
     ProfileComponent
   ],
