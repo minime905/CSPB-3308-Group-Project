@@ -1,32 +1,35 @@
-<div id="inputs">
-  <form (submit)= "calculate($event)">
-      Batteries in Series:
-      <input type="batteriesInSeries" placeholder="" id="batteriesInSeries">
-      Parallel Iterations:
-      <input type="parallelIterations" placeholder="" id="parallelIterations">
-      Motor KV:
-      <input type="motorKV" placeholder="" id="motorKV">
-      Pulley Gear Teeth:
-      <input type="pulleyGearTeeth" placeholder="" id="pulleyGearTeeth">
-      Wheel Gear Teeth:
-      <input type="wheelGearTeeth" placeholder="" id="wheelGearTeeth">
-      Milli-Amp Hours (mAH):
-      <input type="milliAmpHours" placeholder="" id="milliAmpHours">
-      Motor Efficiency (%):
-      <input type="motorEfficiency" placeholder="" id="motorEfficiency">
-      Wheel Size (mm):
-      <input type="wheelSize" placeholder="" id="wheelSize">
-      <input type="submit" value="Submit">
-  </form>
-</div>
+<div class=holder>
+    <div class="words" id="inputs">
+      <form (submit)= "calculate($event)">
+          <div class="minInput"> Batteries in Series: </div>
+          <input type="batteriesInSeries" placeholder="" id="batteriesInSeries">
+          <div>Parallel Iterations:</div>
+          <input type="parallelIterations" placeholder="" id="parallelIterations">
+          <div>Motor KV:</div>
+          <input type="motorKV" placeholder="" id="motorKV">
+          <div>Pulley Gear Teeth:</div>
+          <input type="pulleyGearTeeth" placeholder="" id="pulleyGearTeeth">
+          <div>Wheel Gear Teeth:</div>
+          <input type="wheelGearTeeth" placeholder="" id="wheelGearTeeth">
+          <div>Milli-Amp Hours (mAH):</div>
+          <input type="milliAmpHours" placeholder="" id="milliAmpHours">
+          <div>Motor Efficiency (%):</div>
+          <input type="motorEfficiency" placeholder="" id="motorEfficiency">
+          <div>Wheel Size (mm):</div>
+          <input type="wheelSize" placeholder="" id="wheelSize">
+          <div></div><div></div>
+          <input type="submit" value="Submit">
+      </form>
+    </div>
 
-<div id="results">
-  <div id="display-results">
-    <h6>Max Voltage: (V) </h6><h6 id="maxVoltage"> 0 </h6>
-    <h6>Motor RPM: (RPM)</h6><h6 id="motorRPM"> 0 </h6>
-    <h6>Max Speed: (MPH)</h6><h6 id="maxSpeed"> 0 </h6>
-    <h6>Max Range: (Mi) </h6> <h6 id="maxRange"> 0 </h6>
-    <h6>Gear Ratio: (-)</h6><h6 id="gearRatio"> 0 </h6>
-    <h6>Amp Hours: (Ah)</h6><h6 id="ampHours"> 0 </h6>
-  </div>
+    <div class="words" id="results">
+      <div id="display-results">
+        <div class="minInput">Max Voltage: (V) </div><div id="maxVoltage"> 0 </div>
+        <div>Motor RPM: (RPM)</div><div id="motorRPM"> 0 </div>
+        <div>Max Speed: (MPH)</div><div id="maxSpeed"> 0 </div>
+        <div>Max Range: (Mi) </div> <div id="maxRange"> 0 </div>
+        <div>Gear Ratio: (-)</div><div id="gearRatio"> 0 </div>
+        <div>Amp Hours: (Ah)</div><div id="ampHours"> 0 </div>
+      </div>
+    </div>
 </div>
