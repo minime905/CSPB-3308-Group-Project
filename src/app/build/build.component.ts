@@ -21,22 +21,22 @@ export class BuildComponent implements OnInit {
     const pulleyGearTeeth = target.querySelector('#pulleyGearTeeth').value
     const wheelGearTeeth = target.querySelector('#wheelGearTeeth').value
     const milliAmpHours = target.querySelector('#milliAmpHours').value
-    const motorEfficiency = target.querySelector('#motorEfficiency').value
+    const motorEfficiency = target.querySelector('#motorEfficiency').value / 100
     const wheelSize = target.querySelector('#wheelSize').value
     const wpmavg = 18
     const cellvoltage = 4.2
     const mmtoMile = 1609000
     var maxVoltage = batteriesInSeries * cellvoltage
-    document.getElementById("maxVoltage").innerHTML = maxVoltage.toString()
+    document.getElementById("maxVoltage").innerHTML = maxVoltage.toFixed(1).toString()
     var maxAmpHrs = milliAmpHours * parallelIterations / 1000
-    document.getElementById("ampHours").innerHTML = maxAmpHrs.toString()
+    document.getElementById("ampHours").innerHTML = maxAmpHrs.toFixed(1).toString()
     var motorRPM = motorKV * motorEfficiency * maxVoltage
-    document.getElementById("motorRPM").innerHTML = motorRPM.toString()
+    document.getElementById("motorRPM").innerHTML = motorRPM.toFixed(0).toString()
     var gearRatio = pulleyGearTeeth / wheelGearTeeth
-    document.getElementById("gearRatio").innerHTML = gearRatio.toString()
+    document.getElementById("gearRatio").innerHTML = gearRatio.toFixed(1).toString()
     var maxSpeed = 2 * 3.14 * wheelSize / 2 * (motorRPM/gearRatio) * 60 / mmtoMile
-    document.getElementById("maxSpeed").innerHTML = maxSpeed.toString()
+    document.getElementById("maxSpeed").innerHTML = maxSpeed.toFixed(1).toString()
     var range = maxVoltage * maxAmpHrs / wpmavg
-    document.getElementById("maxRange").innerHTML = range.toString()
+    document.getElementById("maxRange").innerHTML = range.toFixed(1).toString()
   }
 }
