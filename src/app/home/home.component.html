@@ -21,29 +21,29 @@
                <th>Calculation</th>
            </tr>
            <tr>
-               <td>Max Voltage</td>
-               <td>(Batt. in series * 4.2v)</td>
+               <td>Max Voltage (V)</td>
+               <td>(Batt. in Series * 4.2v)</td>
            </tr>
            <tr>
                <td>
-                   Max Amp Hrs
+                   Max Amp Hrs (Ah)
                </td>
-               <td>((mAh per Batt.)* (num Packs in Parallel) )/1000</td>
+               <td>((mAh per Batt.)* (Packs in Parallel)) / 1000</td>
            </tr>
            <tr>
                <td>
-                   Motor RPM
+                   Motor RPM (-)
                </td>
                <td>
-                (Motor KV Rating)*(Motor Efficiency Rating .8)*(Max Voltage)
+                (Motor KV Rating)*(Motor Efficiency Rating)*(Max Voltage)
                </td>
            </tr>
            <tr>
                <td>
-                   Gear Ratio
+                   Gear Ratio (-)
                </td>
                <td>
-                (Pulley teeth)/ (Wheel Gear Teeth)
+                (Wheel Gear teeth)/ (Motor Gear Teeth)
                </td>
            </tr>
            <tr>
@@ -51,15 +51,15 @@
                 Max Speed (MPH)
                </td>
                <td>
-                ((2(π)*((Wheel Diameter)/2.0)*((Motor RPM)/Gear Ratio))*60)/1.609e6
+                ((2(π)*((Wheel Diameter)/2)*((Motor RPM)/Gear Ratio))*60)/1.609e6
                </td>
            </tr>
            <tr>
                <td>
-                   Range (miles)
+                   Range (Mi)
                </td>
                <td>
-                ((Max Volt)*(Batt. AMP hours))/(18Watt hours permile avg.)
+                ((Max Volt)*(Batt. AMP hours))/(18 Wh/mi)
                </td>
            </tr>
        </table>
